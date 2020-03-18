@@ -1,7 +1,17 @@
 # Driver Microservice
 
-- Returns an list of drivers available
-- Returns a driver when searched by `uuid`
+Microservice that manages and returns info about Drivers
+
+**Endpoints**:
+
+- `GET /`
+  - Returns the microservice basic info
+
+- `GET /drivers`
+  - Returns an list of drivers available
+
+- `GET /drivers/{driverId}`
+  - Returns a driver when searched by `uuid`
 
 ## How to run?
 
